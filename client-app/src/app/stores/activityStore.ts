@@ -58,10 +58,6 @@ export default class ActivityStore {
                     resetPred();
                     this.predicate.set('category', 'drinks')
                     break;
-               case 'culture':
-                    resetPred();
-                    this.predicate.set('category', 'culture')
-                    break;
                case 'film':
                     resetPred();
                     this.predicate.set('category', 'film')
@@ -85,10 +81,6 @@ export default class ActivityStore {
                case 'social':
                     resetPred();
                     this.predicate.set('category', 'social')
-                    break;
-               case 'cooking':
-                    resetPred();
-                    this.predicate.set('category', 'cooking')
                     break;
                case 'education':
                     resetPred();

@@ -15,8 +15,8 @@ namespace Application.Mail
 		{
 			Message = new MimeMessage();
 			Client = new SmtpClient();
-			Email = "";
-			Password = "";
+			Email = "interactive.events.2022@gmail.com";
+			Password = "pclptvctnphadlmv";
 
 		}
 

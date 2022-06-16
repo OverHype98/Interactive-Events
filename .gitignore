@@ -18,3 +18,4 @@ appsettings.json
 *.db
 *.db-shm
 *.db-wal
+/Application/Mail/Credentials.cs

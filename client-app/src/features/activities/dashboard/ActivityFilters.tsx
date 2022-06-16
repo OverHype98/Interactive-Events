@@ -42,10 +42,6 @@ export default observer(function ActivityFilters() {
               onClick={() => activityStore.setPredicate('drinks', 'true')}
             />
             <Dropdown.Item
-              content="Culture"
-              onClick={() => activityStore.setPredicate('culture', 'true')}
-            />
-            <Dropdown.Item
               content="Film"
               onClick={() => activityStore.setPredicate('film', 'true')}
             />
@@ -72,10 +68,6 @@ export default observer(function ActivityFilters() {
             <Dropdown.Item
               content="Social"
               onClick={() => activityStore.setPredicate('social', 'true')}
-            />
-            <Dropdown.Item
-              content="Cooking"
-              onClick={() => activityStore.setPredicate('cooking', 'true')}
             />
             <Dropdown.Item
               content="Education"
