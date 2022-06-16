@@ -1,0 +1,111 @@
+body {
+  background-image: linear-gradient(90deg, #243535 0%, #361136 100%) !important;
+}
+
+.ui.inverted.top.fixed.menu{
+  background-image: linear-gradient(90deg, #243535 0%, #361136 100%) !important;
+}
+
+.ui.segment.color{
+  background-image: linear-gradient(90deg, #78e989 0%, #5489e4 100%) !important;
+}
+         
+.ui.secondary.menu .item {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #1b1c1d;
+  font-weight: 700;
+  color: rgba(245, 245, 245, 0.95) !important;
+  
+}
+
+.ui.card>.content, .ui.cards>.card>.content {
+  background-image: linear-gradient(90deg, #78e989 0%, #5489e4 100%) !important
+}
+
+.ui.card, .ui.cards>.card {
+  background-image: linear-gradient(90deg, #243535 0%, #361136 100%) !important;
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url] {
+  background-image: linear-gradient(90deg, #456b6b 0%, #662166 100%) !important;
+}
+.ui.form textarea {
+  background-image: linear-gradient(90deg, #456b6b 0%, #662166 100%) !important;
+}
+.ui.selection.dropdown {
+  background-image: linear-gradient(90deg, #456b6b 0%, #662166 100%) !important;
+
+}
+
+.ui.secondary.pointing.menu .active.item {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #1b1c1d;
+  font-weight: 700;
+  color: rgba(113, 38, 156, 0.95) !important;
+  
+}
+
+.ui.vertical.menu {
+
+  background-image: linear-gradient(90deg, #78e989 0%, #5489e4 100%) !important
+
+  
+  
+}
+
+.ui.modal {
+ 
+  position: relative !important;
+  left: 30px !important;
+  border: 3px solid #a3db54 !important;
+
+}
+
+
+.react-calendar-wrapper{
+  width: 100%;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+          135deg,
+          rgb(66, 6, 231) 0%,
+          rgb(117, 13, 236) 69%,
+          rgb(63, 13, 128) 89%
+  ) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+
+.react-calendar {
+  background-image: linear-gradient(90deg, #78e989 0%, #5489e4 100%) !important;
+  width: 400px;
+  max-width: 100%;
+  background: rgb(19, 2, 2);
+  font-size: 1.2em;
+  font-weight: normal;
+  border: 1px solid #7c7c04;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em;
+}
